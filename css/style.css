@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background:linear-gradient(to right, rgb(86, 84, 84),#005E86);
+}
+main {
+    width: 800px;
+    height: 400px;
+    border: 1px solid #005E86;
+    margin: auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 80px;
+}
+.infor {
+    width: 50%;
+    background: #005E86;
+}
+.infor img {
+    width: 400px;
+    height: 400px;
+}
+.login {
+    width: 50%;
+    text-align: center;
+    background: #ffffff;
+    color: #565252;
+}
+.now {
+    margin-top: 20px;
+    color: #0400f4;
+}
+.card {
+    padding: 1px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.form {
+    padding: 13px;
+}
+.row {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;  
+}
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+    outline: none;
+}
+button {
+    background: #6664b7;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+}
+
